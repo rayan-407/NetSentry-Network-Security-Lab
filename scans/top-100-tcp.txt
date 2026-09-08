@@ -1,0 +1,8 @@
+# Nmap 7.98 scan initiated Tue Sep  8 13:26:37 2026 as: /usr/lib/nmap/nmap --privileged -Pn -sT --top-ports 100 -oN scans/top-100-tcp.txt 192.168.16.129
+Nmap scan report for 192.168.16.129
+Host is up (0.030s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+5357/tcp open  wsdapi
+
+# Nmap done at Tue Sep  8 13:26:51 2026 -- 1 IP address (1 host up) scanned in 13.98 seconds
